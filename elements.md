@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: About Us
 description: 'Who we are, what we do'
 image: assets/images/pic01.jpg
