@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: post
 title: Members
 description: 'Faculty and students'
 image: assets/images/pic02.jpg

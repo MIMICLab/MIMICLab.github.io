@@ -1,87 +1,26 @@
 ---
 title: Research
 description: Publications and Projects
-layout: landing
+layout: post
 image: assets/images/pic03.jpg
 nav-menu: true
 ---
 
-<!-- Main -->
-<div id="main">
+# Publications
+• T. Kim, M. Marsden, P. Ahn, S. Kim, S. Lee, A. Sala, and S. Kim, "Large-Scale Bidirectional Training for Zero-Shot Image Captioning", in CVPRW 2024 (NICE Workshop).
+ [[paper]](https://openaccess.thecvf.com/content/CVPR2024W/NICE/html/Kim_Large-Scale_Bidirectional_Training_for_Zero-Shot_Image_Captioning_CVPRW_2024_paper.html)[[code]](https://github.com/MIMICLab/BITTERS)
 
-<!-- One -->
-<section id="one">
-	<div class="inner">
-		<header class="major">
-			<h2>Sed amet aliquam</h2>
-		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
-	</div>
-</section>
+• T. Kim, G. Song, S. Lee, S. Kim, Y. Seo, S. Lee, S. Kim, and K. Bae, "L-Verse: Bidirectional Generation Between Image and Text", in CVPR 2022.
+  [[paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Kim_L-Verse_Bidirectional_Generation_Between_Image_and_Text_CVPR_2022_paper.html)[[code]](https://github.com/MIMICLab/L-Verse)
 
-<!-- Two -->
-<section id="two" class="spotlights">
-	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Orci maecenas</h3>
-				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic09.jpg %}" alt="" data-position="top center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Rhoncus magna</h3>
-				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Sed nunc ligula</h3>
-				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-</section>
+• T. Kim, Y. Yoo, and J. Yang, "FrostNet: Towards Quantization-Aware Network Architecture Search," in Arxiv preprint, 2020.
+  [[paper]](https://arxiv.org/abs/2006.09679)[[code]](https://github.com/clovaai/frostnet)
 
-<!-- Three -->
-<section id="three">
-	<div class="inner">
-		<header class="major">
-			<h2>Massa libero</h2>
-		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-		<ul class="actions">
-			<li><a href="generic.html" class="button next">Get Started</a></li>
-		</ul>
-	</div>
-</section>
+• T. Kim and J. Yang, "Selective Feature Anonymization for Privacy-Preserving Image Data Publishing," in Electronics, 9(5), 874, 2020.
+  [[paper]](https://www.mdpi.com/2079-9292/9/5/874) [[code]](https://github.com/MIMICLab/PPSGAN)
 
-</div>
+• T. Kim and J. Yang, "Latent-Space-Level Image Anonymization With Adversarial Protector Networks," in IEEE Access, vol. 7, pp. 84992-84999, 2019.
+  [[paper]](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8744221&isnumber=8600701)[[code]](https://github.com/MIMICLab/PPAP)
+
+# Workshops
+• "New Frontiers for Zero-shot Image Captioning Evaluation (NICE)" in CVPR 2023 & 2024 [[paper]](https://openaccess.thecvf.com/content/CVPR2024W/NICE/html/Kim_NICE_CVPR_2023_Challenge_on_Zero-shot_Image_Captioning_CVPRW_2024_paper.html)[[website]](https://nice.lgresearch.ai/)
