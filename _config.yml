@@ -2,7 +2,7 @@
 title: MIMIC
 subtitle: Multimodal Interactive Machine Intelligence Center
 email: taehoonkim@sogang.ac.kr
-description: Multimodal Interactive Machine Intelligence Center, Graduate School of Metaverse, Sogang University
+description: Graduate School of Metaverse, Sogang University
 baseurl:  # the subpath of your site, e.g. /blog
 url: https://MIMICLab.github.io # the base hostname & protocol for your site
 author:
