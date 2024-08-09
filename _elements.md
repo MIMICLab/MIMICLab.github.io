@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Professor
+title: Elements
 image: assets/images/pic01.jpg
 nav-menu: true
 ---
