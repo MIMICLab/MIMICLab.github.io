@@ -1,5 +1,6 @@
 ---
-title: Publications
+title: Research
+description: Publications and Projects
 layout: landing
 image: assets/images/pic07.jpg
 nav-menu: true

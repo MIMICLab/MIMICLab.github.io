@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Students
+title: Members
+description: 'Faculty and students'
 image: assets/images/pic11.jpg
 nav-menu: true
 ---
