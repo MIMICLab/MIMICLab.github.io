@@ -14,7 +14,11 @@ nav-menu: true
 
 ### Research Interests
 • Multimodal AI
+
 • Computer Vision
+
 • Image Captioning
+
 • Model Quantization
+
 • Differential Privacy
