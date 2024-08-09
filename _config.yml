@@ -1,17 +1,17 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+title: MIMIC
+subtitle: Multimodal Interactive Machine Intelligence Center
+email: taehoonkim@sogang.ac.kr
+description: Multimodal Interactive Machine Intelligence Center, Graduate School of Metaverse, Sogang University
 baseurl:  # the subpath of your site, e.g. /blog
 url: https://MIMICLab.github.io # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+street_address: GA507A, 35, Baekbeom-ro, Mapo-gu, Seoul, Republic of Korea
+city: Mapo-gu
+state: Seoul
+zip_code: 04107
+country: Republic of Korea
+phone: 
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -22,12 +22,12 @@ tiles-count: 6
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: https://github.com/andrewbanchich
+  GitHub: https://https://github.com/MIMICLab
   GitLab:
-  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
+  Google-Plus: 
   Instagram:
-  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-  Twitter: https://twitter.com/andrewbanchich
+  LinkedIn: https://www.linkedin.com/in/tgisaturday/
+  Twitter: https://x.com/tgisaturday12
   Facebook:
   Slack:
 
