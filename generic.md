@@ -2,7 +2,7 @@
 layout: post
 title: Members
 description: 'Faculty and students'
-image: assets/images/pic11.jpg
+image: assets/images/pic02.jpg
 nav-menu: true
 ---
 
