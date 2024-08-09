@@ -23,4 +23,4 @@ nav-menu: true
   [[paper]](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8744221&isnumber=8600701) [[code]](https://github.com/MIMICLab/PPAP)
 
 # Workshops
-• "New Frontiers for Zero-shot Image Captioning Evaluation (NICE)" in CVPR 2023 & 2024 [[paper]](https://openaccess.thecvf.com/content/CVPR2024W/NICE/html/Kim_NICE_CVPR_2023_Challenge_on_Zero-shot_Image_Captioning_CVPRW_2024_paper.html) [[website]](https://nice.lgresearch.ai/)
+• New Frontiers for Zero-shot Image Captioning Evaluation (NICE) in CVPR 2023 & 2024 [[paper]](https://openaccess.thecvf.com/content/CVPR2024W/NICE/html/Kim_NICE_CVPR_2023_Challenge_on_Zero-shot_Image_Captioning_CVPRW_2024_paper.html) [[website]](https://nice.lgresearch.ai/)
