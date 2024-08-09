@@ -17,8 +17,6 @@ nav-menu: true
 
 • Computer Vision
 
-• Image Captioning
-
 • Model Quantization
 
 • Differential Privacy
