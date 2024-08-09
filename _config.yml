@@ -6,10 +6,10 @@ description: Graduate School of Metaverse, Sogang University
 baseurl:  # the subpath of your site, e.g. /blog
 url: https://MIMICLab.github.io # the base hostname & protocol for your site
 author:
-street_address: GA507A, 35, Baekbeom-ro, Mapo-gu, Seoul, Republic of Korea
+street_address: GA507A, 35, Baekbeom-ro
 city: Mapo-gu
 state: Seoul
-zip_code: 04107
+zip_code: '04107'
 country: Republic of Korea
 phone: 
 
