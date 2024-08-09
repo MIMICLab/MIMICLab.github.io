@@ -11,7 +11,7 @@ city: Mapo-gu
 state: Seoul
 zip_code: '04107'
 country: Republic of Korea
-phone: (+82)02-705-XXXX
+phone: (+82) 02-705-XXXX
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"

@@ -2,7 +2,7 @@
 title: Research
 description: Publications and Projects
 layout: landing
-image: assets/images/pic07.jpg
+image: assets/images/pic03.jpg
 nav-menu: true
 ---
 

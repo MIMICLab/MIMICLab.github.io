@@ -5,9 +5,19 @@ description: 'Faculty and students'
 image: assets/images/pic02.jpg
 nav-menu: true
 ---
+# Faculty
 
-Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.
+## Taehoon Kim
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.
+### Assistant Professor, Graduate School of Metaverse, Sogang University
 
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
+Machine Learning Researcher. Specialized in Computer Vision & Multimodal tasks. Currently focusing on Interactive Multimodal AI.
+
+[[Github]](https://github.com/tgisaturday)[[Google Scholar]](https://scholar.google.com/citations?user=t3mz3rMAAAAJ&hl=ko)[[Linkedin]](https://www.linkedin.com/in/tgisaturday/)
+
+### Research Interests
+    - Multimodal AI
+    - Computer Vision
+    - Image Captioning
+    - Model Quantization
+    - Differential Privacy
