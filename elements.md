@@ -31,7 +31,7 @@ Jan 2017 - Dec 2017 Machine Learning Engineer, Nosith Inc.
 ## Field of Interest
 • General machine learning, computer-vision, and large scale model training.
 
-• Specialized in large multimodal model(LMM), vision-language, quantization, and network architecture design.
+• Specialized in large multimodal model (LMM), vision-language, quantization, and network architecture design.
 
 • Application of machine learning algorithms on various multimodal and computer vision tasks.
 
