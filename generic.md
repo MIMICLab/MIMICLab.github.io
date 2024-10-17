@@ -20,3 +20,39 @@ nav-menu: true
 • Model Quantization
 
 • Differential Privacy
+
+# Students
+
+##  Hyeon Seong, Jeong
+
+### Ph.D Student, Graduate School of Metaverse, Sogang University
+[[Github]](https://github.com/jayhyeonseong)[[Linkedin]](https://www.linkedin.com/in/%ED%98%84%EC%84%B1-%EC%A0%95-b7072a315/)
+
+### Research Interests
+• Big-Data
+
+• Multimodal AI
+
+• Business
+
+##  SeongYeon Oh
+
+### M.S Student, Graduate School of Metaverse, Sogang University
+[[Github]](https://github.com/Code-SY95)[[Linkedin]](https://www.linkedin.com/in/seongyeon-oh-248a86301/)
+
+### Research Interests
+• Diffusion
+
+• Multimodal AI
+
+##  Uyeong Kim
+
+### B.S Student, Computer Science and Engineering, Sogang University
+[[Github]](https://github.com/drew0523)[[Linkedin]](https://www.linkedin.com/in/drew0523/)
+
+### Research Interests
+• Computer Vision
+
+• Weakly Supervised Learning
+
+• Large Language Model (LLM)
