@@ -58,3 +58,13 @@ nav-menu: true
 • Weakly Supervised Learning
 
 • Large Language Model (LLM)
+
+##  HyeonJun Kim
+
+### B.S Student, Computer Science and Engineering, Sogang University
+[[Github]](https://github.com/maskkim)[[Linkedin]](https://www.linkedin.com/in/%ED%98%84%EC%A4%80-%EA%B9%80-a1961032b/)
+
+### Research Interests
+• Multimodal AI
+
+• Model Quantization
