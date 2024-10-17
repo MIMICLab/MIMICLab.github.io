@@ -22,6 +22,7 @@ nav-menu: true
 • Differential Privacy
 
 ![Additional Image](assets/images/pic09.jpg) 
+
 # Students
 
 ##  Hyeon Seong, Jeong
