@@ -21,7 +21,7 @@ nav-menu: true
 
 • Differential Privacy
 
-![Additional Image](assets/images/pic09.jpg) 
+![Additional Image](assets/images/assets/images/IMG_6556.jpeg) 
 
 # Students
 
