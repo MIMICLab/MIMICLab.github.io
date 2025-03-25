@@ -1,4 +1,5 @@
 # Forty - Jekyll Theme
+This webpage is made using following Jekyll theme:
 
 A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).  
 
