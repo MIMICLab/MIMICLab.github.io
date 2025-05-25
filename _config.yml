@@ -13,12 +13,12 @@ zip_code: '04107'
 country: Republic of Korea
 phone: (+82)02-705-8902
 
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: air
 plugins:
-  - jekyll-timeago
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-include-cache
 
 
 # social settings (key must match name of font awesome icon)
