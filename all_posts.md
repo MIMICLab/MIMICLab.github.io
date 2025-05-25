@@ -1,12 +1,5 @@
 ---
-layout: allposts
+layout: posts
 title: News
-landing-title: 'News'
 nav-menu: true
-description: null
-image: null
-author: null
-show_tile: false
 ---
-
-<h1>News</h1>
