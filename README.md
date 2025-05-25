@@ -12,5 +12,8 @@ This repository contains the source for the MIMIC Lab website. The site is built
    ```bash
    bundle exec jekyll serve
    ```
+GitHub Actions automatically updates RubyGems to version 3.3.22 before building
+the site. This prevents crashes during gem installation when deploying.
 
-GitHub Actions automatically deploys the site. It updates RubyGems to 3.3.22 before building to avoid errors with recent gem versions.
+Site configuration lives in `_config.yml` and navigation links can be adjusted in `_data/navigation.yml`.
+

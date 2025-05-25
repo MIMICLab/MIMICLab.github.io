@@ -12,3 +12,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: gem update --system 3.3.22
 
+      - uses: helaili/jekyll-action@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
