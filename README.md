@@ -17,3 +17,4 @@ GitHub Actions automatically upgrades RubyGems to 3.3.16 before building the
 site to ensure compatibility with the Minimal Mistakes theme.
 
 Site configuration lives in `_config.yml` and navigation links can be adjusted in `_data/navigation.yml`.
+

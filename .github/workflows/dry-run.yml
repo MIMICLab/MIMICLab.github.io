@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - run: gem update --system 3.3.22
       - uses: helaili/jekyll-action@2.0.5
         with:
           build_only: true
