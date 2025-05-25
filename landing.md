@@ -1,7 +1,7 @@
 ---
 title: Research
 description: Publications and Projects
-layout: post
+layout: single
 image: assets/images/pic03.jpg
 nav-menu: true
 ---
