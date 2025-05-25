@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Build Preview
 
 on:
   pull_request:
@@ -6,13 +6,15 @@ on:
       - master
 
 jobs:
-  github-pages:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
       - run: gem update --system 3.3.22
       - uses: helaili/jekyll-action@2.0.5
         build_only: true
+
