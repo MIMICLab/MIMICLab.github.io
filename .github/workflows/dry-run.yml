@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Build Preview
 
 on:
   pull_request:
@@ -6,12 +6,16 @@ on:
       - master
 
 jobs:
-  github-pages:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: gem update --system 3.3.22
-      - uses: helaili/jekyll-action@2.0.5
+
+      - uses: ruby/setup-ruby@v1
         with:
-          pre_build_commands: "gem update --system 3.3.22"
-          build_only: true
+          ruby-version: '3.1'
+          rubygems: '3.3.22'
+          bundler-cache: true
+      - run: bundle exec jekyll build
+
+
