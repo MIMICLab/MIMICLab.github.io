@@ -1,0 +1,11 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "About Us"
+    url: /elements/
+  - title: "Members"
+    url: /generic/
+  - title: "Research"
+    url: /landing/
+  - title: "News"
+    url: /all_posts/
