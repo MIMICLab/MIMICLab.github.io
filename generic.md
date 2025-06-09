@@ -45,6 +45,22 @@ nav-menu: true
 
 • Multimodal AI
 
+##  Sangwoo Jo
+
+### M.A Student, Graduate School of Metaverse, Sogang University
+[[Github]](https://github.com/JasonSogang)
+
+### Research Interests
+• Office Automation Solutions
+
+• Sustainable Business Models in AI Era
+
+• AI-Powered Translation & Interpretation Systems
+
+• Backend System Architecture
+
+• Server Security
+
 ##  Uyeong Kim
 
 ### B.S Student, Computer Science and Engineering, Sogang University
