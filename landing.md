@@ -33,3 +33,5 @@ nav-menu: true
 
 # Workshops (Organizer)
 • New Frontiers for Zero-shot Image Captioning Evaluation (NICE) in CVPR 2023 & 2024 [[paper]](https://openaccess.thecvf.com/content/CVPR2024W/NICE/html/Kim_NICE_CVPR_2023_Challenge_on_Zero-shot_Image_Captioning_CVPRW_2024_paper.html) [[website]](https://nice.lgresearch.ai/)
+
+• Workshop on Cultural Continuity of Artists (WCCA) in ICCV 2025 [[website]](https://wccartists.github.io/)
