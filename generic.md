@@ -82,3 +82,14 @@ nav-menu: true
 • Multimodal AI
 
 • Model Quantization
+
+##  Taewook Kang
+
+### BAS Student, Art & Technology, Sogang University
+[[Github]](https://github.com/Taewook-git)
+
+### Research Interests
+
+• Retrieval-Augmented Generation(RAG)
+
+• Large Language Model (LLM)
