@@ -1,10 +1,10 @@
 ---
 layout: post
-title: EdgeGemmaSpeak
-description: EdgeGemmaSpeak Release.
+title: AgentVox
+description: AgentVox Release.
 ---
 
-[EdgeGemmaSpeak](https://github.com/MIMICLab/EdgeGemmaSpeak) — Edge-based voice assistant using Gemma LLM with Speech-to-Text and Text-to-Speech capabilities — officially Released!
+[AgentVox](https://github.com/MIMICLab/AgentVox) — Edge-based voice assistant using Gemma LLM with Speech-to-Text and Text-to-Speech capabilities — officially Released!
 
 Features:
 
