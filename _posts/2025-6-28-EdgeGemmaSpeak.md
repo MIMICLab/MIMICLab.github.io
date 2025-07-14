@@ -8,9 +8,9 @@ description: AgentVox Release.
 
 Features:
 
-- **Speech Recognition (STT)**: High-speed speech recognition using Faster Whisper
+- **Speech Recognition (STT)**: High-speed speech recognition using RealtimeSTT
 - **Conversational AI (LLM)**: Local LLM based on Llama.cpp (Gemma 3 12B)
-- **Speech Synthesis (TTS)**: Fast response with Edge-TTS streaming
+- **Speech Synthesis (TTS)**: Fast response with RealtimeTTS
 - **Complete Offline Operation**: All processing is done locally, ensuring privacy
 
 
