@@ -37,7 +37,7 @@ nav-menu: true
 
 ##  SeongYeon Oh
 
-### M.S Student, Graduate School of Metaverse, Sogang University
+### Ph.D Student, Graduate School of Metaverse, Sogang University
 [[Github]](https://github.com/Code-SY95)[[Linkedin]](https://www.linkedin.com/in/seongyeon-oh-248a86301/)
 
 ### Research Interests
@@ -47,7 +47,7 @@ nav-menu: true
 
 ##  Sangwoo Jo
 
-### M.A Student, Graduate School of Metaverse, Sogang University
+### M.S Student, Graduate School of Metaverse, Sogang University
 [[Github]](https://github.com/JasonSogang)
 
 ### Research Interests
