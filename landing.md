@@ -13,7 +13,7 @@ nav-menu: true
 • **T. Kim**, M. Marsden, P. Ahn, S. Kim, S. Lee, A. Sala, and S. Kim, "Large-Scale Bidirectional Training for Zero-Shot Image Captioning", in CVPRW 2024 (NICE Workshop).
  [[paper]](https://arxiv.org/abs/2211.06774) [[code]](https://github.com/MIMICLab/BITTERS)
 
-• **T. Kim**, G. Song, S. Lee, S. Kim, Y. Seo, S. Lee, S. Kim, and K. Bae, "L-Verse: Bidirectional Generation Between Image and Text", in CVPR 2022.
+• **T. Kim**, G. Song, S. Lee, S. Kim, Y. Seo, S. Lee, S. Kim, and K. Bae, "L-Verse: Bidirectional Generation Between Image and Text", in CVPR 2022 (Oral).
   [[paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Kim_L-Verse_Bidirectional_Generation_Between_Image_and_Text_CVPR_2022_paper.html) [[code]](https://github.com/MIMICLab/L-Verse)
 
 • **T. Kim**, Y. Yoo, and J. Yang, "FrostNet: Towards Quantization-Aware Network Architecture Search", in Arxiv preprint, 2020.
