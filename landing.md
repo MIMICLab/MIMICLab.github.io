@@ -14,7 +14,7 @@ nav-menu: true
  [[paper]](https://arxiv.org/abs/2211.06774) [[code]](https://github.com/MIMICLab/BITTERS)
 
 • **T. Kim**, G. Song, S. Lee, S. Kim, Y. Seo, S. Lee, S. Kim, and K. Bae, "L-Verse: Bidirectional Generation Between Image and Text", in CVPR 2022 (Oral).
-  [[paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Kim_L-Verse_Bidirectional_Generation_Between_Image_and_Text_CVPR_2022_paper.html) [[code]](https://github.com/MIMICLab/L-Verse)
+  [[paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Kim_L-Verse_Bidirectional_Generation_Between_Image_and_Text_CVPR_2022_paper.html) [[code]](https://github.com/MIMICLab/L-Verse) [[oral presentation]](https://www.youtube.com/watch?v=tf4sph6X-qY)
 
 • **T. Kim**, Y. Yoo, and J. Yang, "FrostNet: Towards Quantization-Aware Network Architecture Search", in Arxiv preprint, 2020.
   [[paper]](https://arxiv.org/abs/2006.09679) [[code]](https://github.com/clovaai/frostnet)
