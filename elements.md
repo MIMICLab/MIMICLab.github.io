@@ -37,6 +37,13 @@ Jan 2017 - Dec 2017 Machine Learning Engineer, Nosith Inc.
 
 ## Projects
 
+### Egocentric Multimodal AI Agent
+• Academic Partnership with Project Aria, Meta Reality Labs). (Ongoing)
+
+• Developing an Egocentric Multimodal AI Agent leveraging real-time visual inputs from Aria Glass, integrating camera streams, Visual SLAM, and eye-tracking data to enable personalized and context-aware interactions.
+
+• Designing end-to-end multimodal AI architecture optimized for egocentric perception, combining Large Multimodal Models (LMM) with Speech-to-Text (STT) and Text-to-Speech (TTS) for immersive, real-world applications.
+
 ### Large Multimodal Model (LMM)
 • Lead of Image-to-Text LMM (EXAONE Atelier Image-to-text) Project.
 
