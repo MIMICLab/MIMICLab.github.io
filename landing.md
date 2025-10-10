@@ -9,6 +9,7 @@ nav-menu: true
 # Publications (First or Corresponding)
 • **H.Jeong**, **H.Ko**, S. Park, and **T. Kim** "LLM-Based Persona-Driven Text Data Augmentation", in IEEE Access, vol. 13, pp. 167560 - 167577, 2025.
  [[paper]](https://ieeexplore.ieee.org/abstract/document/11170443) 
+ 
 • **S. Oh**, M. Jung, and **T. Kim** "EnvMat: A Network for Simultaneous Generation of PBR Maps and Environment Maps from a Single Image", in Electronics, 14(13), 2554.
  [[paper]](https://www.mdpi.com/2079-9292/14/13/2554) [[code]](https://github.com/Code-SY95/EnvMat)
 
