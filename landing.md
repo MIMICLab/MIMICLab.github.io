@@ -7,6 +7,9 @@ nav-menu: true
 ---
 
 # Publications (First or Corresponding)
+• **S. Oh**, **S. Lee**, **H. Jeong**, S. Jo, J. Kim, Y. Choi, Y. Yoo, **T. Kim**, "WCCA-AK: A Multimodal Dataset of Andre Kim's Fashion Legacy for AI-Driven Cultural Heritage Research", in ICCVW 2025 (WCCA Workshop).
+[[paper]](https://openaccess.thecvf.com/content/ICCV2025W/WCCA/html/Oh_WCCA-AK_A_Multimodal_Dataset_of_Andre_Kims_Fashion_Legacy_for_ICCVW_2025_paper.html) [[dataset]](https://huggingface.co/datasets/SY95/WCCA-AK-images)
+
 • **H.Jeong**, **H.Ko**, S. Park, and **T. Kim** "LLM-Based Persona-Driven Text Data Augmentation", in IEEE Access, vol. 13, pp. 167560 - 167577, 2025.
  [[paper]](https://ieeexplore.ieee.org/abstract/document/11170443) 
  
@@ -40,4 +43,4 @@ nav-menu: true
 # Workshops (Organizer)
 • New Frontiers for Zero-shot Image Captioning Evaluation (NICE) in CVPR 2023 & 2024 [[paper]](https://openaccess.thecvf.com/content/CVPR2024W/NICE/html/Kim_NICE_CVPR_2023_Challenge_on_Zero-shot_Image_Captioning_CVPRW_2024_paper.html) [[website]](https://nice.lgresearch.ai/)
 
-• Workshop on Cultural Continuity of Artists (WCCA) in ICCV 2025 [[website]](https://wccartists.github.io/)
+• Workshop on Cultural Continuity of Artists (WCCA) in ICCV 2025 [[paper]](https://openaccess.thecvf.com/content/ICCV2025W/WCCA/html/Oh_WCCA-AK_A_Multimodal_Dataset_of_Andre_Kims_Fashion_Legacy_for_ICCVW_2025_paper.html) [[dataset]](https://huggingface.co/datasets/SY95/WCCA-AK-images) [[website]](https://wccartists.github.io/)

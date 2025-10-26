@@ -6,9 +6,9 @@ image: assets/images/pic01.jpg
 nav-menu: true
 ---
 
-# About MIMIC
+# About MIMIC Lab
 
-The Multimodal Interactive Machine Intelligence Center is dedicated to advancing human-interactive, multimodal AI. 
+The Multimodal Interactive Machine Intelligence Creation Laboratory is dedicated to advancing human-interactive, multimodal AI. 
 
 Our focus is on creating AI that can understand, communicate with, and empathize with humans.
 
@@ -38,7 +38,7 @@ Jan 2017 - Dec 2017 Machine Learning Engineer, Nosith Inc.
 ## Projects
 
 ### Egocentric Multimodal AI Agent
-• Academic Partnership with Project Aria, Meta Reality Labs). (Ongoing)
+• Academic Partnership with Project Aria, Meta Reality Lab. (On-going)
 
 • Developing an Egocentric Multimodal AI Agent leveraging real-time visual inputs from Aria Glass, integrating camera streams, Visual SLAM, and eye-tracking data to enable personalized and context-aware interactions.
 

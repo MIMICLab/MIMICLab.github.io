@@ -9,7 +9,7 @@ nav-menu: true
 
 ## Taehoon Kim
 
-### Assistant Professor, Graduate School of Metaverse, Sogang University
+### Assistant Professor, Graduate School of Virtual Convergence, Sogang University
 [[Github]](https://github.com/tgisaturday)[[Google Scholar]](https://scholar.google.com/citations?user=t3mz3rMAAAAJ&hl=ko)[[Linkedin]](https://www.linkedin.com/in/tgisaturday/)
 
 ### Research Interests
@@ -25,7 +25,7 @@ nav-menu: true
 
 ##  Hyeon Seong, Jeong
 
-### Ph.D Student, Graduate School of Metaverse, Sogang University
+### Ph.D Student, Graduate School of Virtual Convergence, Sogang University
 [[Github]](https://github.com/jayhyeonseong)[[Linkedin]](https://www.linkedin.com/in/%ED%98%84%EC%84%B1-%EC%A0%95-b7072a315/)
 
 ### Research Interests
@@ -37,7 +37,7 @@ nav-menu: true
 
 ##  SeongYeon Oh
 
-### Ph.D Student, Graduate School of Metaverse, Sogang University
+### Ph.D Student, Graduate School of Virtual Convergence, Sogang University
 [[Github]](https://github.com/Code-SY95)[[Linkedin]](https://www.linkedin.com/in/seongyeon-oh-248a86301/)
 
 ### Research Interests
@@ -47,7 +47,7 @@ nav-menu: true
 
 ##  Sangwoo Jo
 
-### M.S Student, Graduate School of Metaverse, Sogang University
+### M.S Student, Graduate School of Virtual Convergence, Sogang University
 [[Github]](https://github.com/JasonSogang)
 
 ### Research Interests
