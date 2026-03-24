@@ -2,7 +2,6 @@
   position: Ph.D Student, Graduate School of Virtual Convergence, Sogang University
   github: https://github.com/jayhyeonseong
   linkedin: https://www.linkedin.com/in/%ED%98%84%EC%84%B1-%EC%A0%95-b7072a315/
-  order: 1
   visible: true
   interests:
     - Big-Data
@@ -13,37 +12,14 @@
   position: Ph.D Student, Graduate School of Virtual Convergence, Sogang University
   github: https://github.com/Code-SY95
   linkedin: https://www.linkedin.com/in/seongyeon-oh-248a86301/
-  order: 2
   visible: true
   interests:
     - Diffusion
     - Multimodal AI
 
-- name: Sangwoo Jo
-  position: M.S Student, Graduate School of Virtual Convergence, Sogang University
-  github: https://github.com/JasonSogang
-  order: 3
-  visible: true
-  interests:
-    - Office Automation Solutions
-    - Sustainable Business Models in AI Era
-    - AI-Powered Translation & Interpretation Systems
-    - Backend System Architecture
-    - Server Security
-
-- name: Taewook Kang
-  position: BAS Student, Art & Technology, Sogang University
-  github: https://github.com/Taewook-git
-  order: 6
-  visible: true
-  interests:
-    - Retrieval-Augmented Generation(RAG)
-    - Large Language Model (LLM)
-
 - name: Shin Young Sun
   position: Ph.D Student, Graduate School of Virtual Convergence, Sogang University
   github: https://github.com/steeles94
-  order: 7
   visible: true
   interests:
     - Speech and Language Processing
@@ -52,18 +28,29 @@
 
 - name: Hankyeong Ko
   position: Ph.D Student, Graduate School of Virtual Convergence, Sogang University
-  order: 8
   visible: true
   interests:
     - AI Security
     - Adversarial Machine Learning
     - Differential Privacy
 
+
+- name: Sangwoo Jo
+  position: M.S Student, Graduate School of Virtual Convergence, Sogang University
+  github: https://github.com/JasonSogang
+  visible: true
+  interests:
+    - Office Automation Solutions
+    - Sustainable Business Models in AI Era
+    - AI-Powered Translation & Interpretation Systems
+    - Backend System Architecture
+    - Server Security
+
+
 - name: Hyunwoo Joo
   position: M.S Student, Graduate School of Virtual Convergence, Sogang University
   github: https://github.com/Hyunwoojooo
   image: /assets/images/hwj.png
-  order: 9
   visible: true
   interests:
     - Reinforcement Learning for Robotics
@@ -72,16 +59,23 @@
 
 - name: Kyeungkeun Park
   position: M.S Student, Graduate School of Virtual Convergence, Sogang University
-  order: 10
   visible: true
   interests:
     - Human-AI Interaction
     - AI-Integrated Business Models
 
+- name: Taewook Kang
+  position: BAS Student, Art & Technology, Sogang University
+  github: https://github.com/Taewook-git
+  visible: true
+  interests:
+    - Retrieval-Augmented Generation(RAG)
+    - Large Language Model (LLM)
+
+
 - name: Seungwoo Kim
   position: BAS Student, Human-AI, Sangmyung University
   github: https://rlatmddn0211.github.io
-  order: 11
   visible: true
   interests:
     - Reinforcement Learning
