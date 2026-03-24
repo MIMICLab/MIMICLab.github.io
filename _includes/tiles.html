@@ -6,11 +6,17 @@
 <section id="one" class="tiles">
   {% assign rendered_urls = "||" %}
   {% for tile in tiles limit:site.tiles-count %}
-  {% assign key = "|" | append: tile.url | append: "|" %}
-  {% if rendered_urls contains key %}
+  {% assign key1 = "|" | append: tile.url | append: "|" %}
+  {% assign normalized_tile_url = tile.url | replace: "/index.html", "" %}
+  {% assign key2 = "|" | append: normalized_tile_url | append: "|" %}
+  {% assign title_key = "|" | append: tile.title | append: "|" %}
+
+  {% if rendered_urls contains key1 or rendered_urls contains key2 or rendered_urls contains title_key %}
     {% continue %}
   {% endif %}
-  {% assign rendered_urls = rendered_urls | append: key %}
+
+  {% assign rendered_urls = rendered_urls | append: key1 | append: key2 | append: title_key %}
+
   <article>
     <span class="image">
       <img src="{{ tile.image }}" alt="{{ tile.title }}" />

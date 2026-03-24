@@ -45,3 +45,38 @@
 		{% endif %}
 	</ul>
 </nav>
+
+<script>
+(function() {
+	const normalizePath = function(href) {
+		if (!href) return "";
+		try {
+			const url = new URL(href, window.location.href);
+			const path = url.pathname.replace(/\/+$/, "/");
+			return path.toLowerCase();
+		} catch (_e) {
+			return href.replace(/\/+$/, "/");
+		}
+	};
+
+	const removeDuplicateLinks = function(selector, includeText) {
+		const seen = {};
+		document.querySelectorAll(selector).forEach(function(link) {
+			const key = includeText ? (normalizePath(link.href) + "|" + (link.textContent || "").trim()) : normalizePath(link.href);
+			if (key && seen[key]) {
+				const item = link.closest("li") || link.parentElement;
+				if (item) {
+					item.parentElement && item.parentElement.removeChild(item);
+				}
+			} else {
+				seen[key] = true;
+			}
+		});
+	};
+
+	document.addEventListener("DOMContentLoaded", function() {
+		removeDuplicateLinks("#menu .links a", true);
+		removeDuplicateLinks("#one.tiles article a.link", false);
+	});
+})();
+</script>
