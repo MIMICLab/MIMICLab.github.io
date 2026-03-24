@@ -38,6 +38,23 @@ Jan 2017 - Dec 2017 Machine Learning Engineer, Nosith Inc.
 
 ## Projects
 
+### Reliable Egocentric Multimodal AI Agent (NRF Early Career Research)
+• Research supported by [National Research Foundation](https://www.nrf.re.kr/) Early Career Research Program (우수신진연구).  
+
+• Developing a hallucination-free on-device egocentric multimodal AI agent with self-correction capabilities, designed to operate in real-world human environments.   
+
+• Proposing an Actor-Validator architecture with RLAIF-based alignment, where a lightweight actor generates responses and a high-capacity validator evaluates factual consistency, logical coherence, and social appropriateness.  
+
+• Designing a Social-Context Hallucination Benchmark to quantitatively measure and reduce hallucinations in egocentric multimodal settings, targeting hallucination rates below 10%. 
+
+• Developing multimodal data augmentation pipelines using large multimodal models to improve robustness in rare and socially complex scenarios. 
+
+• Implementing Dynamic Precision Quantization (DPQ) and Quantization-Aware Training (QAT) to enable real-time on-device inference under strict resource constraints (≤4GB memory, ≤100ms latency).  
+
+• Integrating privacy-preserving mechanisms based on latent-space anonymization to ensure safe handling of egocentric visual and audio data. 
+
+• Targeting deployment on edge devices such as Jetson Orin and NPU platforms, enabling fully on-device, privacy-preserving, and low-latency AI agents for AR/XR and wearable applications.  
+
 ### Reliable Generative AI via Validator LLM
 • Academic research supported by NVIDIA Academic Grant Program.
 

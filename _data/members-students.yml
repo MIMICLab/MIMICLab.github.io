@@ -39,3 +39,49 @@
   interests:
     - Retrieval-Augmented Generation(RAG)
     - Large Language Model (LLM)
+
+- name: Shin Young Sun
+  position: Ph.D Student, Graduate School of Virtual Convergence, Sogang University
+  github: https://github.com/steeles94
+  order: 7
+  visible: true
+  interests:
+    - Speech and Language Processing
+    - Computer-Mediated Communication
+    - HCI (Human-Computer Interaction)
+
+- name: Hankyeong Ko
+  position: Ph.D Student, Graduate School of Virtual Convergence, Sogang University
+  order: 8
+  visible: true
+  interests:
+    - AI Security
+    - Adversarial Machine Learning
+    - Differential Privacy
+
+- name: Hyunwoo Joo
+  position: M.S Student, Graduate School of Virtual Convergence, Sogang University
+  github: https://github.com/Hyunwoojooo
+  order: 9
+  visible: true
+  interests:
+    - Reinforcement Learning for Robotics
+    - Physical AI
+    - Robot Learning
+
+- name: Kyeungkeun Park
+  position: M.S Student, Graduate School of Virtual Convergence, Sogang University
+  order: 10
+  visible: true
+  interests:
+    - Human-AI Interaction
+    - AI-Integrated Business Models
+
+- name: Seungwoo Kim
+  position: BAS Student, Human-AI, Sangmyung University
+  github: https://rlatmddn0211.github.io
+  order: 11
+  visible: true
+  interests:
+    - Reinforcement Learning
+    - Autonomous Decision Making
