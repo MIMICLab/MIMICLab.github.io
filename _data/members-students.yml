@@ -1,6 +1,6 @@
 - name: Hyeon Seong, Jeong
   position: Ph.D Student, Graduate School of Virtual Convergence, Sogang University
-  image: /assets/images/pic03.jpg
+  image: /assets/images/mimic.jpg
   github: https://github.com/jayhyeonseong
   linkedin: https://www.linkedin.com/in/%ED%98%84%EC%84%B1-%EC%A0%95-b7072a315/
   order: 1
@@ -12,7 +12,7 @@
 
 - name: SeongYeon Oh
   position: Ph.D Student, Graduate School of Virtual Convergence, Sogang University
-  image: /assets/images/pic04.jpg
+  image: /assets/images/mimic.jpg
   github: https://github.com/Code-SY95
   linkedin: https://www.linkedin.com/in/seongyeon-oh-248a86301/
   order: 2
@@ -23,7 +23,7 @@
 
 - name: Sangwoo Jo
   position: M.S Student, Graduate School of Virtual Convergence, Sogang University
-  image: /assets/images/pic05.jpg
+  image: /assets/images/mimic.jpg
   github: https://github.com/JasonSogang
   order: 3
   visible: true
@@ -34,32 +34,9 @@
     - Backend System Architecture
     - Server Security
 
-- name: Uyeong Kim
-  position: B.S Student, Computer Science and Engineering, Sogang University
-  image: /assets/images/pic06.jpg
-  github: https://github.com/drew0523
-  linkedin: https://www.linkedin.com/in/drew0523/
-  order: 4
-  visible: true
-  interests:
-    - Computer Vision
-    - Weakly Supervised Learning
-    - Large Language Model (LLM)
-
-- name: HyeonJun Kim
-  position: B.S Student, Computer Science and Engineering, Sogang University
-  image: /assets/images/pic07.jpg
-  github: https://github.com/maskkim
-  linkedin: https://www.linkedin.com/in/%ED%98%84%EC%A4%80-%EA%B9%80-a1961032b/
-  order: 5
-  visible: true
-  interests:
-    - Multimodal AI
-    - Model Quantization
-
 - name: Taewook Kang
   position: BAS Student, Art & Technology, Sogang University
-  image: /assets/images/pic08.jpg
+  image: /assets/images/mimic.jpg
   github: https://github.com/Taewook-git
   order: 6
   visible: true

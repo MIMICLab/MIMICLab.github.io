@@ -12,8 +12,13 @@
     {% assign ordered_members = members_data | where_exp: "person", "person.visible != false" | sort: "order" %}
 
     {% for person in ordered_members %}
+      {% if include.data == 'students' %}
+        {% assign member_image = person.image | default: '/assets/images/mimic.jpg' %}
+      {% else %}
+        {% assign member_image = person.image %}
+      {% endif %}
       <article class="member-item">
-        <img src="{{ person.image | relative_url }}" alt="{{ person.name }}">
+        <img src="{{ member_image | relative_url }}" alt="{{ person.name }}">
         <div class="member-content">
           <h3>{{ person.name }}</h3>
           <p>{{ person.position }}</p>

@@ -38,6 +38,17 @@ Jan 2017 - Dec 2017 Machine Learning Engineer, Nosith Inc.
 
 ## Projects
 
+### Reliable Generative AI via Validator LLM
+• Academic research supported by NVIDIA Academic Grant Program.
+
+• Developing a Validator LLM framework to evaluate and enforce logical consistency in generative AI outputs, addressing hallucination and reasoning errors in large language models.
+
+• Designed a dual-model architecture where an actor LLM generates responses and a validator LLM assesses reasoning validity, enabling iterative refinement through reinforcement learning from AI feedback (RLAIF).
+
+• Exploring multi-pass reasoning and cross-model verification to improve robustness and trustworthiness of generated explanations.
+
+• Implementing the system using NVIDIA AI stack including NeMo Framework and TensorRT-LLM for scalable and production-ready deployment.
+
 ### Egocentric Multimodal AI Agent
 • Academic Partnership with Project Aria, Meta Reality Lab. (On-going)
 

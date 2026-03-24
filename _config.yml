@@ -21,14 +21,14 @@ tiles-count: 6
 menu:
   - title: Home
     url: /
-  - title: About Us
-    url: /about/
-  - title: Research
-    url: /research/
-  - title: Members
-    url: /members/
   - title: News
     url: /news/
+  - title: About Us
+    url: /about/
+  - title: Members
+    url: /members/    
+  - title: Research
+    url: /research/
 
 # social settings (key must match name of font awesome icon)
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
