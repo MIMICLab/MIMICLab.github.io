@@ -12,11 +12,16 @@
 <!-- Menu -->
 <nav id="menu">
 	<ul class="links">
-		{% for page in site.html_pages %}
-		    {% if page.layout == "home" %}
-		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
-		    {% elsif page.nav-menu == true %}
-		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+		{% assign menu_pages = site.html_pages | sort: "url" %}
+		{% assign prev_url = "" %}
+		{% for page in menu_pages %}
+			{% if page.url != prev_url %}
+				{% if page.layout == "home" %}
+					<li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
+				{% elsif page.nav-menu == true %}
+					<li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+				{% endif %}
+				{% assign prev_url = page.url %}
 		    {% endif %}
 		{% endfor %}
 	</ul>
