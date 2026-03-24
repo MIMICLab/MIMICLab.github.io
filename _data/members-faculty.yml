@@ -1,6 +1,6 @@
 - name: Taehoon Kim
   position: Assistant Professor, Graduate School of Virtual Convergence, Sogang University
-  image: /assets/images/pic01.jpg
+  image: /assets/images/taehoonkim.jpg
   github: https://github.com/tgisaturday
   scholar: https://scholar.google.com/citations?user=t3mz3rMAAAAJ&hl=ko
   linkedin: https://www.linkedin.com/in/tgisaturday/
@@ -8,6 +8,8 @@
   visible: true
   interests:
     - Multimodal AI
+    - Agentic AI
     - Computer Vision
     - Model Quantization
     - Differential Privacy
+

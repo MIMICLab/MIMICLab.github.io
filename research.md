@@ -8,7 +8,7 @@ nav-menu: true
 ---
 
 # Publications (First or Corresponding)
-• **S. Oh**, **S. Lee**, **H. Jeong**, S. Jo, J. Kim, Y. Choi, Y. Yoo, **T. Kim**, "WCCA-AK: A Multimodal Dataset of Andre Kim's Fashion Legacy for AI-Driven Cultural Heritage Research", in ICCVW 2025 (WCCA Workshop).
+• **S. Oh**, S. Lee, **H. Jeong**, **S. Jo**, J. Kim, Y. Choi, Y. Yoo, **T. Kim**, "WCCA-AK: A Multimodal Dataset of Andre Kim's Fashion Legacy for AI-Driven Cultural Heritage Research", in ICCVW 2025 (WCCA Workshop).
 [[paper]](https://openaccess.thecvf.com/content/ICCV2025W/WCCA/html/Oh_WCCA-AK_A_Multimodal_Dataset_of_Andre_Kims_Fashion_Legacy_for_ICCVW_2025_paper.html) [[dataset]](https://huggingface.co/datasets/SY95/WCCA-AK-images)
 
 • **H.Jeong**, **H.Ko**, S. Park, and **T. Kim** "LLM-Based Persona-Driven Text Data Augmentation", in IEEE Access, vol. 13, pp. 167560 - 167577, 2025.
