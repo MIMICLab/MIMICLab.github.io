@@ -50,7 +50,7 @@
 - name: Hyunwoo Joo
   position: M.S Student, Graduate School of Virtual Convergence, Sogang University
   github: https://github.com/Hyunwoojooo
-  image: /assets/images/hwj.png
+  image: /assets/images/jhw.jpg
   visible: true
   interests:
     - Reinforcement Learning for Robotics
@@ -59,6 +59,7 @@
 
 - name: Kyeungkeun Park
   position: M.S Student, Graduate School of Virtual Convergence, Sogang University
+  image: /assets/images/pkk.jpg
   visible: true
   interests:
     - Human-AI Interaction
@@ -67,6 +68,7 @@
 - name: Taewook Kang
   position: BAS Student, Art & Technology, Sogang University
   github: https://github.com/Taewook-git
+  image: /assets/images/ktw.jpg
   visible: true
   interests:
     - Retrieval-Augmented Generation(RAG)
@@ -76,6 +78,7 @@
 - name: Seungwoo Kim
   position: BAS Student, Human-AI, Sangmyung University
   github: https://rlatmddn0211.github.io
+  image: /assets/images/ksw.jpg
   visible: true
   interests:
     - Reinforcement Learning
