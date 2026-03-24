@@ -1,0 +1,45 @@
+{% if include.data == 'faculty' %}
+  {% assign members_data = site.data['members-faculty'] %}
+{% elsif include.data == 'students' %}
+  {% assign members_data = site.data['members-students'] %}
+{% else %}
+  {% assign members_data = nil %}
+{% endif %}
+
+{% if members_data and members_data.size > 0 %}
+  <section class="member-section">
+    <h2>{{ include.title }}</h2>
+    {% assign ordered_members = members_data | where_exp: "person", "person.visible != false" | sort: "order" %}
+
+    {% for person in ordered_members %}
+      <article class="member-item">
+        <img src="{{ person.image | relative_url }}" alt="{{ person.name }}">
+        <div class="member-content">
+          <h3>{{ person.name }}</h3>
+          <p>{{ person.position }}</p>
+
+          <p class="member-links">
+            {% if person.github %}
+              <a href="{{ person.github }}" target="_blank" rel="noopener">Github</a>
+            {% endif %}
+            {% if person.scholar %}
+              <a href="{{ person.scholar }}" target="_blank" rel="noopener">Google Scholar</a>
+            {% endif %}
+            {% if person.linkedin %}
+              <a href="{{ person.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+            {% endif %}
+          </p>
+
+          {% if person.interests %}
+            <h4>Research Interests</h4>
+            <ul>
+              {% for interest in person.interests %}
+                <li>{{ interest }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+      </article>
+    {% endfor %}
+  </section>
+{% endif %}

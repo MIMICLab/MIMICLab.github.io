@@ -1,0 +1,38 @@
+.member-section {
+	margin-top: 2em;
+}
+
+.member-section + .member-section {
+	margin-top: 3em;
+}
+
+.member-item {
+	align-items: start;
+	display: grid;
+	grid-template-columns: 220px 1fr;
+	gap: 1.6em;
+	margin: 0 0 2.5em;
+}
+
+.member-item img {
+	border-radius: 10px;
+	height: 220px;
+	object-fit: cover;
+	width: 220px;
+}
+
+.member-links a {
+	margin-right: 0.8em;
+}
+
+@media screen and (max-width: 768px) {
+	.member-item {
+		grid-template-columns: 1fr;
+	}
+
+	.member-item img {
+		height: auto;
+		max-width: 260px;
+		width: 100%;
+	}
+}

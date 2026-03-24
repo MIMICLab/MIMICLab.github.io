@@ -1,6 +1,7 @@
 ---
 layout: allposts
 title: News
+permalink: /news/
 landing-title: 'News'
 nav-menu: true
 description: null
