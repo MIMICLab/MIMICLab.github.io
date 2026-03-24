@@ -4,7 +4,13 @@
     {% assign tiles = site.html_pages | where_exp: "item", "item.show_tile != false" %}
 {% endif %}
 <section id="one" class="tiles">
+  {% assign rendered_urls = "||" %}
   {% for tile in tiles limit:site.tiles-count %}
+  {% assign key = "|" | append: tile.url | append: "|" %}
+  {% if rendered_urls contains key %}
+    {% continue %}
+  {% endif %}
+  {% assign rendered_urls = rendered_urls | append: key %}
   <article>
     <span class="image">
       <img src="{{ tile.image }}" alt="{{ tile.title }}" />

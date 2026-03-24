@@ -17,6 +17,19 @@ phone: (+82)02-705-8902
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 
+# explicit menu order (prevents duplication from automatic page loops)
+menu:
+  - title: Home
+    url: /
+  - title: About Us
+    url: /about/
+  - title: Research
+    url: /research/
+  - title: Members
+    url: /members/
+  - title: News
+    url: /news/
+
 # social settings (key must match name of font awesome icon)
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
 # Icons are not shown if value is empty
