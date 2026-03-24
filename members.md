@@ -2,7 +2,7 @@
 layout: post
 title: Members
 permalink: /members/
-description: 'Faculty and Students'
+description: 'Faculty and students'
 image: assets/images/banner.png
 nav-menu: true
 ---

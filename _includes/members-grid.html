@@ -13,7 +13,7 @@
 
     {% for person in ordered_members %}
       {% if include.data == 'students' %}
-        {% assign member_image = person.image | default: '/assets/images/mimic.jpg' %}
+        {% assign member_image = person.image | default: '/assets/images/mimic.png' %}
       {% else %}
         {% assign member_image = person.image %}
       {% endif %}

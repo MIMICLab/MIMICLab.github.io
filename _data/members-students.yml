@@ -1,6 +1,5 @@
 - name: Hyeon Seong, Jeong
   position: Ph.D Student, Graduate School of Virtual Convergence, Sogang University
-  image: /assets/images/mimic.jpg
   github: https://github.com/jayhyeonseong
   linkedin: https://www.linkedin.com/in/%ED%98%84%EC%84%B1-%EC%A0%95-b7072a315/
   order: 1
@@ -12,7 +11,6 @@
 
 - name: SeongYeon Oh
   position: Ph.D Student, Graduate School of Virtual Convergence, Sogang University
-  image: /assets/images/mimic.jpg
   github: https://github.com/Code-SY95
   linkedin: https://www.linkedin.com/in/seongyeon-oh-248a86301/
   order: 2
@@ -23,7 +21,6 @@
 
 - name: Sangwoo Jo
   position: M.S Student, Graduate School of Virtual Convergence, Sogang University
-  image: /assets/images/mimic.jpg
   github: https://github.com/JasonSogang
   order: 3
   visible: true
@@ -36,7 +33,6 @@
 
 - name: Taewook Kang
   position: BAS Student, Art & Technology, Sogang University
-  image: /assets/images/mimic.jpg
   github: https://github.com/Taewook-git
   order: 6
   visible: true

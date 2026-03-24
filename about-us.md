@@ -3,7 +3,7 @@ layout: post
 title: About Us
 permalink: /about/
 description: 'Who we are, what we do'
-image: assets/images/pic01.jpg
+image: assets/images/logo.png
 nav-menu: true
 ---
 
