@@ -62,6 +62,7 @@
 - name: Hyunwoo Joo
   position: M.S Student, Graduate School of Virtual Convergence, Sogang University
   github: https://github.com/Hyunwoojooo
+  image: /assets/images/hwj.png
   order: 9
   visible: true
   interests:
