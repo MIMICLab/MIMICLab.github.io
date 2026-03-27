@@ -12,6 +12,7 @@
   position: Ph.D Student, Graduate School of Virtual Convergence, Sogang University
   github: https://github.com/Code-SY95
   linkedin: https://www.linkedin.com/in/seongyeon-oh-248a86301/
+  image: /assets/images/syo.jpg
   visible: true
   interests:
     - Diffusion
@@ -20,6 +21,7 @@
 - name: Shin Young Sun
   position: Ph.D Student, Graduate School of Virtual Convergence, Sogang University
   github: https://github.com/steeles94
+  image: /assets/images/sys.jpg
   visible: true
   interests:
     - Speech and Language Processing
