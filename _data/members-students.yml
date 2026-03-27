@@ -1,5 +1,5 @@
 - name: Hyeon Seong, Jeong
-  position: Ph.D Student, Graduate School of Virtual Convergence, Sogang University
+  position: Ph.D Candidate, Graduate School of Virtual Convergence, Sogang University
   github: https://github.com/jayhyeonseong
   linkedin: https://www.linkedin.com/in/%ED%98%84%EC%84%B1-%EC%A0%95-b7072a315/
   image: /assets/images/hsj.jpg
@@ -8,6 +8,15 @@
     - Big-Data
     - Multimodal AI
     - Business
+
+- name: Hankyeong Ko
+  position: Ph.D Candidate, Graduate School of Virtual Convergence, Sogang University
+  image: /assets/images/hkk.jpg
+  visible: true
+  interests:
+    - AI Security
+    - Adversarial Machine Learning
+    - Differential Privacy
 
 - name: SeongYeon Oh
   position: Ph.D Student, Graduate School of Virtual Convergence, Sogang University
@@ -28,15 +37,6 @@
     - Speech and Language Processing
     - Computer-Mediated Communication
     - HCI (Human-Computer Interaction)
-
-- name: Hankyeong Ko
-  position: Ph.D Student, Graduate School of Virtual Convergence, Sogang University
-  image: /assets/images/hkk.jpg
-  visible: true
-  interests:
-    - AI Security
-    - Adversarial Machine Learning
-    - Differential Privacy
 
 
 - name: Sangwoo Jo
