@@ -2,6 +2,7 @@
   position: Ph.D Student, Graduate School of Virtual Convergence, Sogang University
   github: https://github.com/jayhyeonseong
   linkedin: https://www.linkedin.com/in/%ED%98%84%EC%84%B1-%EC%A0%95-b7072a315/
+  image: /assets/images/hsj.jpg
   visible: true
   interests:
     - Big-Data
@@ -30,6 +31,7 @@
 
 - name: Hankyeong Ko
   position: Ph.D Student, Graduate School of Virtual Convergence, Sogang University
+  image: /assets/images/hkk.jpg
   visible: true
   interests:
     - AI Security
@@ -40,6 +42,7 @@
 - name: Sangwoo Jo
   position: M.S Student, Graduate School of Virtual Convergence, Sogang University
   github: https://github.com/JasonSogang
+  image: /assets/images/swj.jpg
   visible: true
   interests:
     - Office Automation Solutions
