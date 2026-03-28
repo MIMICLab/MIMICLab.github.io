@@ -134,6 +134,36 @@
 				}
 			});
 
+		// Member photo hover swap.
+			$('.member-photo img[data-hover-src]').each(function() {
+
+				var $img = $(this),
+					defaultSrc = $img.attr('data-default-src'),
+					hoverSrc = $img.attr('data-hover-src'),
+					preloadImage = new Image(),
+					$memberItem = $img.closest('.member-item'),
+					setHoverImage = function() {
+						$img.attr('src', hoverSrc);
+					},
+					setDefaultImage = function() {
+						$img.attr('src', defaultSrc);
+					};
+
+				if (!hoverSrc || hoverSrc === defaultSrc)
+					return;
+
+				preloadImage.onload = function() {
+					$memberItem
+						.on('mouseenter', setHoverImage)
+						.on('mouseleave', setDefaultImage)
+						.on('focusin', setHoverImage)
+						.on('focusout', setDefaultImage);
+				};
+
+				preloadImage.src = hoverSrc;
+
+			});
+
 		// Tiles.
 			var $tiles = $('.tiles > article');
 

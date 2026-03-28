@@ -27,25 +27,7 @@
 	display: block;
 	height: 100%;
 	object-fit: cover;
-	transition: opacity 0.2s ease;
 	width: 100%;
-}
-
-.member-photo-hover {
-	left: 0;
-	opacity: 0;
-	position: absolute;
-	top: 0;
-}
-
-.member-item:hover .member-photo.has-hover .member-photo-default,
-.member-item:focus-within .member-photo.has-hover .member-photo-default {
-	opacity: 0;
-}
-
-.member-item:hover .member-photo.has-hover .member-photo-hover,
-.member-item:focus-within .member-photo.has-hover .member-photo-hover {
-	opacity: 1;
 }
 
 .member-links a {

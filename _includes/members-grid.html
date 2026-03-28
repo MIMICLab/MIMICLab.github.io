@@ -14,17 +14,13 @@
     {% for person in ordered_members %}
       {% assign member_image = person.image | default: '/assets/images/mimic.png' %}
       {% assign member_hover_image = member_image | replace: '/assets/images/', '/assets/images/_' %}
-      {% assign member_hover_image_name = member_hover_image | split: '/' | last %}
-      {% assign hover_image_count = 0 %}
-      {% if member_hover_image != member_image %}
-        {% assign hover_image_count = site.static_files | where: "name", member_hover_image_name | size %}
-      {% endif %}
       <article class="member-item">
-        <div class="member-photo{% if hover_image_count > 0 %} has-hover{% endif %}">
-          <img class="member-photo-default" src="{{ member_image | relative_url }}" alt="{{ person.name }}">
-          {% if hover_image_count > 0 %}
-            <img class="member-photo-hover" src="{{ member_hover_image | relative_url }}" alt="" aria-hidden="true">
-          {% endif %}
+        <div class="member-photo">
+          <img
+            src="{{ member_image | relative_url }}"
+            alt="{{ person.name }}"
+            data-default-src="{{ member_image | relative_url }}"
+            data-hover-src="{{ member_hover_image | relative_url }}">
         </div>
         <div class="member-content">
           <h3>{{ person.name }}</h3>
