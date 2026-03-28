@@ -13,7 +13,15 @@
 
     {% for person in ordered_members %}
       {% assign member_image = person.image | default: '/assets/images/mimic.png' %}
-      {% assign member_hover_image = member_image | replace: '/assets/images/', '/assets/images/_' %}
+      {% if person.image %}
+        {% assign member_hover_image = member_image
+          | replace: '.jpeg', '_original.jpeg'
+          | replace: '.jpg', '_original.jpg'
+          | replace: '.png', '_original.png'
+          | replace: '.webp', '_original.webp' %}
+      {% else %}
+        {% assign member_hover_image = member_image %}
+      {% endif %}
       <article class="member-item">
         <div class="member-photo">
           <img
