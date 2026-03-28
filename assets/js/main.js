@@ -142,22 +142,60 @@
 					hoverSrc = $img.attr('data-hover-src'),
 					preloadImage = new Image(),
 					$memberItem = $img.closest('.member-item'),
-					setHoverImage = function() {
-						$img.attr('src', hoverSrc);
-					},
-					setDefaultImage = function() {
-						$img.attr('src', defaultSrc);
+					prefersHover = window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches,
+					isHovered = false,
+					isFocused = false,
+					isInView = false,
+					updateImage = function() {
+						$img.attr('src', (isHovered || isFocused || isInView) ? hoverSrc : defaultSrc);
 					};
 
 				if (!hoverSrc || hoverSrc === defaultSrc)
 					return;
 
 				preloadImage.onload = function() {
+					if ('IntersectionObserver' in window) {
+						new IntersectionObserver(function(entries) {
+							entries.forEach(function(entry) {
+								isInView = entry.isIntersecting && entry.intersectionRatio >= 0.45;
+								updateImage();
+							});
+						}, {
+							threshold: [0, 0.45, 0.75]
+						}).observe($memberItem[0]);
+					}
+
+					if (prefersHover) {
+						$memberItem
+							.on('mouseenter', function() {
+								isHovered = true;
+								updateImage();
+							})
+							.on('mouseleave', function() {
+								isHovered = false;
+								updateImage();
+							})
+							.on('focusin', function() {
+								isFocused = true;
+								updateImage();
+							})
+							.on('focusout', function() {
+								isFocused = false;
+								updateImage();
+							});
+
+						return;
+					}
+
 					$memberItem
-						.on('mouseenter', setHoverImage)
-						.on('mouseleave', setDefaultImage)
-						.on('focusin', setHoverImage)
-						.on('focusout', setDefaultImage);
+						.on('focusin touchstart', function() {
+							isFocused = true;
+							updateImage();
+						})
+						.on('focusout touchend touchcancel', function() {
+							isFocused = false;
+							updateImage();
+						});
 				};
 
 				preloadImage.src = hoverSrc;
