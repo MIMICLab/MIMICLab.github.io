@@ -15,10 +15,10 @@
       {% assign member_image = person.image | default: '/assets/images/mimic.png' %}
       {% if person.image %}
         {% assign member_hover_image = member_image
-          | replace: '.jpeg', '_original.jpeg'
-          | replace: '.jpg', '_original.jpg'
-          | replace: '.png', '_original.png'
-          | replace: '.webp', '_original.webp' %}
+          | replace: '.jpeg', '_focus.jpeg'
+          | replace: '.jpg', '_focus.jpg'
+          | replace: '.png', '_focus.png'
+          | replace: '.webp', '_focus.webp' %}
       {% else %}
         {% assign member_hover_image = member_image %}
       {% endif %}
