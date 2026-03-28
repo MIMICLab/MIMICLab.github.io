@@ -137,18 +137,27 @@
 		// Member photo hover swap.
 			$('.member-photo img[data-hover-src]').each(function() {
 
-				var $img = $(this),
-					defaultSrc = $img.attr('data-default-src'),
-					hoverSrc = $img.attr('data-hover-src'),
-					preloadImage = new Image(),
-					$memberItem = $img.closest('.member-item'),
-					prefersHover = window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches,
-					isHovered = false,
-					isFocused = false,
-					isInView = false,
-					updateImage = function() {
-						$img.attr('src', (isHovered || isFocused || isInView) ? hoverSrc : defaultSrc);
-					};
+					var $img = $(this),
+						defaultSrc = $img.attr('data-default-src'),
+						hoverSrc = $img.attr('data-hover-src'),
+						preloadImage = new Image(),
+						$memberItem = $img.closest('.member-item'),
+						prefersHover = window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches,
+						isHovered = false,
+						isFocused = false,
+						isInView = false,
+						isToggled = false,
+						ignoreNextClick = false,
+						setActive = function() {
+							return (isHovered || isFocused || isInView || isToggled);
+						},
+						updateImage = function() {
+							$img.attr('src', setActive() ? hoverSrc : defaultSrc);
+						},
+						toggleImage = function() {
+							isToggled = !isToggled;
+							updateImage();
+						};
 
 				if (!hoverSrc || hoverSrc === defaultSrc)
 					return;
@@ -156,15 +165,33 @@
 				preloadImage.onload = function() {
 					if ('IntersectionObserver' in window) {
 						new IntersectionObserver(function(entries) {
-							entries.forEach(function(entry) {
-								isInView = entry.isIntersecting && entry.intersectionRatio >= 0.45;
-								updateImage();
-							});
-						}, {
-							threshold: [0, 0.45, 0.75]
-						}).observe($memberItem[0]);
-					}
+						entries.forEach(function(entry) {
+							isInView = entry.isIntersecting && entry.intersectionRatio >= 0.45;
 
+							if (!isInView) {
+								isFocused = false;
+								isHovered = false;
+								isToggled = false;
+							}
+
+							updateImage();
+						});
+					}, {
+						threshold: [0, 0.45, 0.75]
+					}).observe($memberItem[0]);
+				}
+
+					$memberItem.find('.member-photo').on('click', function(event) {
+						if (ignoreNextClick) {
+							event.preventDefault();
+							ignoreNextClick = false;
+							return;
+						}
+
+						event.preventDefault();
+						toggleImage();
+					});
+	
 					if (prefersHover) {
 						$memberItem
 							.on('mouseenter', function() {
@@ -183,19 +210,22 @@
 								isFocused = false;
 								updateImage();
 							});
-
-						return;
-					}
-
-					$memberItem
-						.on('focusin touchstart', function() {
-							isFocused = true;
-							updateImage();
-						})
-						.on('focusout touchend touchcancel', function() {
-							isFocused = false;
-							updateImage();
+					} else {
+						$memberItem.find('.member-photo').on('touchstart', function(event) {
+							ignoreNextClick = true;
+							toggleImage();
 						});
+
+						$memberItem
+							.on('focusin', function() {
+								isFocused = true;
+								updateImage();
+							})
+							.on('focusout', function() {
+								isFocused = false;
+								updateImage();
+							});
+					}
 				};
 
 				preloadImage.src = hoverSrc;
