@@ -141,6 +141,7 @@
 						defaultSrc = $img.attr('data-default-src'),
 						hoverSrc = $img.attr('data-hover-src'),
 						preloadImage = new Image(),
+						$memberPhoto = $img.closest('.member-photo'),
 						$memberItem = $img.closest('.member-item'),
 						prefersHover = window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches,
 						isHovered = false,
@@ -169,7 +170,7 @@
 					if ('IntersectionObserver' in window) {
 						new IntersectionObserver(function(entries) {
 						entries.forEach(function(entry) {
-							isInView = entry.isIntersecting && entry.intersectionRatio >= 0.8;
+							isInView = entry.isIntersecting && entry.intersectionRatio >= 1;
 
 							if (!isInView) {
 								isFocused = false;
@@ -180,8 +181,8 @@
 							updateImage();
 						});
 					}, {
-						threshold: [0, 0.8, 0.9]
-					}).observe($memberItem[0]);
+						threshold: [0, 1]
+					}).observe($memberPhoto[0]);
 				}
 
 					$memberItem.find('.member-photo').on('click', function(event) {
