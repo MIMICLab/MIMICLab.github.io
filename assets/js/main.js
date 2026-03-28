@@ -146,16 +146,19 @@
 						isHovered = false,
 						isFocused = false,
 						isInView = false,
-						isToggled = false,
+						manualState = null,
 						ignoreNextClick = false,
 						setActive = function() {
-							return (isHovered || isFocused || isInView || isToggled);
+							if (manualState !== null)
+								return manualState;
+
+							return (isHovered || isFocused || isInView);
 						},
 						updateImage = function() {
 							$img.attr('src', setActive() ? hoverSrc : defaultSrc);
 						},
 						toggleImage = function() {
-							isToggled = !isToggled;
+							manualState = !setActive();
 							updateImage();
 						};
 
@@ -171,7 +174,7 @@
 							if (!isInView) {
 								isFocused = false;
 								isHovered = false;
-								isToggled = false;
+								manualState = null;
 							}
 
 							updateImage();
