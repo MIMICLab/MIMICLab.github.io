@@ -169,7 +169,7 @@
 					if ('IntersectionObserver' in window) {
 						new IntersectionObserver(function(entries) {
 						entries.forEach(function(entry) {
-							isInView = entry.isIntersecting && entry.intersectionRatio >= 0.45;
+							isInView = entry.isIntersecting && entry.intersectionRatio >= 0.7;
 
 							if (!isInView) {
 								isFocused = false;
@@ -180,7 +180,7 @@
 							updateImage();
 						});
 					}, {
-						threshold: [0, 0.45, 0.75]
+						threshold: [0, 0.7, 0.85]
 					}).observe($memberItem[0]);
 				}
 
