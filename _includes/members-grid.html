@@ -12,13 +12,20 @@
     {% assign ordered_members = members_data | where_exp: "person", "person.visible != false" | sort: "order" %}
 
     {% for person in ordered_members %}
-      {% if include.data == 'students' %}
-        {% assign member_image = person.image | default: '/assets/images/mimic.png' %}
-      {% else %}
-        {% assign member_image = person.image %}
+      {% assign member_image = person.image | default: '/assets/images/mimic.png' %}
+      {% assign member_hover_image = member_image | replace: '/assets/images/', '/assets/images/_' %}
+      {% assign member_hover_image_name = member_hover_image | split: '/' | last %}
+      {% assign hover_image_count = 0 %}
+      {% if member_hover_image != member_image %}
+        {% assign hover_image_count = site.static_files | where: "name", member_hover_image_name | size %}
       {% endif %}
       <article class="member-item">
-        <img src="{{ member_image | relative_url }}" alt="{{ person.name }}">
+        <div class="member-photo{% if hover_image_count > 0 %} has-hover{% endif %}">
+          <img class="member-photo-default" src="{{ member_image | relative_url }}" alt="{{ person.name }}">
+          {% if hover_image_count > 0 %}
+            <img class="member-photo-hover" src="{{ member_hover_image | relative_url }}" alt="" aria-hidden="true">
+          {% endif %}
+        </div>
         <div class="member-content">
           <h3>{{ person.name }}</h3>
           <p>{{ person.position }}</p>
