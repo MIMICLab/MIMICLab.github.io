@@ -167,69 +167,12 @@
 					return;
 
 				preloadImage.onload = function() {
-					if ('IntersectionObserver' in window) {
-						new IntersectionObserver(function(entries) {
-						entries.forEach(function(entry) {
-							isInView = entry.isIntersecting && entry.intersectionRatio >= 1;
-
-							if (!isInView) {
-								isFocused = false;
-								isHovered = false;
-								manualState = null;
-							}
-
-							updateImage();
-						});
-					}, {
-						threshold: [0, 1]
-					}).observe($memberPhoto[0]);
-				}
-
-					$memberItem.find('.member-photo').on('click', function(event) {
-						if (ignoreNextClick) {
-							event.preventDefault();
-							ignoreNextClick = false;
+					$memberItem.on('click', function(event) {
+						if ($(event.target).closest('a').length > 0)
 							return;
-						}
 
-						event.preventDefault();
 						toggleImage();
 					});
-	
-					if (prefersHover) {
-						$memberItem
-							.on('mouseenter', function() {
-								isHovered = true;
-								updateImage();
-							})
-							.on('mouseleave', function() {
-								isHovered = false;
-								updateImage();
-							})
-							.on('focusin', function() {
-								isFocused = true;
-								updateImage();
-							})
-							.on('focusout', function() {
-								isFocused = false;
-								updateImage();
-							});
-					} else {
-						$memberItem.find('.member-photo').on('touchstart', function(event) {
-							ignoreNextClick = true;
-							toggleImage();
-						});
-
-						$memberItem
-							.on('focusin', function() {
-								isFocused = true;
-								updateImage();
-							})
-							.on('focusout', function() {
-								isFocused = false;
-								updateImage();
-							});
-					}
 				};
 
 				preloadImage.src = hoverSrc;

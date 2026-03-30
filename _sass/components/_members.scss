@@ -8,6 +8,7 @@
 
 .member-item {
 	align-items: start;
+	cursor: pointer;
 	display: grid;
 	grid-template-columns: 220px 1fr;
 	gap: 1.6em;
