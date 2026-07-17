@@ -38,8 +38,30 @@ Jan 2017 - Dec 2017 Machine Learning Engineer, Nosith Inc.
 
 ## Projects
 
+### Physics-Informed AI for Mega-Scale Content Simulation and Direction
+
+• Research supported by the [Korea Creative Content Agency (KOCCA)](http://www.kocca.or.kr) under the 2026 Culture, Sports and Tourism R&D Program.  
+
+• Developing a Physics-Informed AI (PI-AI) platform that integrates real-time physics simulation, digital twins, and intelligent production tools for K-POP concerts, festivals, exhibitions, and other mega-scale cultural content.  
+
+• Building a physics-aware content asset database containing more than 500 stage structures, lighting systems, cameras, LED displays, and moving devices, with physical properties such as mass, center of gravity, load capacity, friction, collision range, and motion limits.  
+
+• Developing a hybrid physics architecture in which PI-AI models complement conventional physics engines by learning and correcting residual errors between simulated behavior and real-world measurements.  
+
+• Developing real-time safety validation models that detect excessive loads, structural instability, collisions, and equipment operating-limit violations, targeting safety parameter inference within 100 ms.  
+
+• Designing AI-assisted production tools that automatically recommend camera positions, lighting configurations, equipment layouts, and directing sequences while considering visibility, illumination uniformity, physical constraints, and operational safety.  
+
+• Implementing a Hybrid Neural Rendering Digital Twin that combines 3D Gaussian Splatting for photorealistic venue reconstruction with mesh-based dynamic simulation and AI-based relighting for physically consistent integration of virtual and real environments.  
+
+• Enabling bidirectional synchronization between Unity-based virtual environments and real stage equipment through protocols such as sACN, Art-Net, FreeD, Modbus, MQTT, OSC, and SMPTE timecode, targeting real–virtual content synchronization delays below 10 seconds.  
+
+• Developing automatic calibration methods to align virtual and physical stages, targeting an SSIM-based physical alignment accuracy of 0.75 and a spatial alignment error below 0.8 degrees.  
+
+• Validating the platform through real-world K-POP concerts and large-scale event productions to reduce production risks, improve pre-visualization workflows, and support simultaneous offline, online, and metaverse-based performances.
+
 ### Reliable Egocentric Multimodal AI Agent (NRF Early Career Research)
-• Research supported by [National Research Foundation](https://www.nrf.re.kr/) Early Career Research Program (우수신진연구).  
+• Research supported by [National Research Foundation (NRF)](https://www.nrf.re.kr/) Early Career Research Program (우수신진연구).  
 
 • Developing a hallucination-free on-device egocentric multimodal AI agent with self-correction capabilities, designed to operate in real-world human environments.   
 
