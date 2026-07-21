@@ -21,7 +21,7 @@ Our focus is on creating AI that can understand, communicate with, and empathize
 2012 - 2018 B.S in Computer Science & Communications, Sogang University
 
 ## Career
-Aug 2024 - Current Assistant Professor, Graduate School of Metaverse, Sogang University
+Aug 2024 - Current Assistant Professor, Graduate School of Virtual Convergence, Sogang University
 
 Mar 2021 - Aug 2024 Research Scientist, Vision Lab, LG AI Research
 
