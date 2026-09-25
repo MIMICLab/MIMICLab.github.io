@@ -9,6 +9,7 @@ nav-menu: true
 
 # Publications (First or Corresponding)
 • **H. Ko**, **T. Kim**, "PP-Mark: Provable and Publicly Verifiable Watermarking for Generative AI", in Neurips 2026. [[paper]](https://openreview.net/forum?id=yPgHWlPwFl)
+
 • **S. Sun**, **T. Kim**, "Decoding the Trade-off: A Large-Scale Analysis of Latency and Stability in LLM-based Speech Translation Cascades", in Interspeech 2026 (Oral). [[paper]](https://www.isca-archive.org/interspeech_2026/sun26f_interspeech.html)
 
 • **S. Oh**, S. Lee, **H. Jeong**, **S. Jo**, J. Kim, Y. Choi, Y. Yoo, **T. Kim**, "WCCA-AK: A Multimodal Dataset of Andre Kim's Fashion Legacy for AI-Driven Cultural Heritage Research", in ICCVW 2025 (WCCA Workshop).
