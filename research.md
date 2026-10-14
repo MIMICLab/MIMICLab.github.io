@@ -8,9 +8,9 @@ nav-menu: true
 ---
 
 # Publications (First or Corresponding)
-• **H. Ko**, **T. Kim**, "PP-Mark: Provable and Publicly Verifiable Watermarking for Generative AI", in Neurips 2026. [[paper]](https://openreview.net/forum?id=yPgHWlPwFl)
+• **H. Ko**, **T. Kim**, "PP-Mark: Provable and Publicly Verifiable Watermarking for Generative AI", in Neurips 2026. [[paper]](https://openreview.net/forum?id=yPgHWlPwFl) [[code]](https://github.com/hko920920/PP-Mark_NeurIPS2026)
 
-• **S. Sun**, **T. Kim**, "Decoding the Trade-off: A Large-Scale Analysis of Latency and Stability in LLM-based Speech Translation Cascades", in Interspeech 2026 (Oral). [[paper]](https://www.isca-archive.org/interspeech_2026/sun26f_interspeech.html)
+• **S. Sun**, **T. Kim**, "Decoding the Trade-off: A Large-Scale Analysis of Latency and Stability in LLM-based Speech Translation Cascades", in Interspeech 2026 (Oral). [[paper]](https://www.isca-archive.org/interspeech_2026/sun26f_interspeech.html) 
 
 • **S. Oh**, S. Lee, **H. Jeong**, **S. Jo**, J. Kim, Y. Choi, Y. Yoo, **T. Kim**, "WCCA-AK: A Multimodal Dataset of Andre Kim's Fashion Legacy for AI-Driven Cultural Heritage Research", in ICCVW 2025 (WCCA Workshop).
 [[paper]](https://openaccess.thecvf.com/content/ICCV2025W/WCCA/html/Oh_WCCA-AK_A_Multimodal_Dataset_of_Andre_Kims_Fashion_Legacy_for_ICCVW_2025_paper.html) [[dataset]](https://huggingface.co/datasets/SY95/WCCA-AK-images)
