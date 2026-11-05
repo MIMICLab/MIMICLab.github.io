@@ -4,7 +4,7 @@ title: Paper Accepted at INTERSPEECH 2026
 description: Our paper, “Decoding the Trade-off: A Large-Scale Analysis of Latency and Stability in LLM-based Speech Translation Cascades,” has been accepted at INTERSPEECH 2026.
 ---
 
-Our paper, “[Decoding the Trade-off: A Large-Scale Analysis of Latency and Stability in LLM-based Speech Translation Cascades](#),” has been accepted at INTERSPEECH 2026.
+Our paper, “Decoding the Trade-off: A Large-Scale Analysis of Latency and Stability in LLM-based Speech Translation Cascades,” has been accepted at INTERSPEECH 2026.
 
 The paper investigates a practical but often overlooked challenge in real-time speech translation: reducing latency does not always make a system faster. In cloud-based cascaded systems, aggressively shortening speech segments increases the number of ASR and machine translation requests. Once the request rate exceeds the system’s processing capacity, a backlog accumulates and the apparent fast configuration becomes slower over time.
 
