@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Paper Accepted at INTERSPEECH 2026
-description: Our paper, “Decoding the Trade-off: A Large-Scale Analysis of Latency and Stability in LLM-based Speech Translation Cascades,” has been accepted at INTERSPEECH 2026.
+description: Our paper has been accepted at INTERSPEECH 2026.
 ---
 
 Our paper, “Decoding the Trade-off: A Large-Scale Analysis of Latency and Stability in LLM-based Speech Translation Cascades,” has been accepted at INTERSPEECH 2026.
