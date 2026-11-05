@@ -8,7 +8,7 @@ nav-menu: true
 ---
 
 # Publications (First or Corresponding)
-• **H. Ko**, **T. Kim**, "PP-Mark: Provable and Publicly Verifiable Watermarking for Generative AI", in Neurips 2026. [[paper]](https://openreview.net/forum?id=yPgHWlPwFl) [[code]](https://github.com/hko920920/PP-Mark_NeurIPS2026)
+• **H. Ko**, **T. Kim**, "PP-Mark: Provable and Publicly Verifiable Watermarking for Generative AI", in Neurips 2026. [[paper]](https://arxiv.org/abs/2610.41170) [[code]](https://github.com/hko920920/PP-Mark_NeurIPS2026)
 
 • **S. Sun**, **T. Kim**, "Decoding the Trade-off: A Large-Scale Analysis of Latency and Stability in LLM-based Speech Translation Cascades", in Interspeech 2026 (Oral). [[paper]](https://www.isca-archive.org/interspeech_2026/sun26f_interspeech.html) 
 
